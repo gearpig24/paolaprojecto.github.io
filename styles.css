@@ -1,0 +1,45 @@
+El Rey León El Rey León El Rey León El Rey León /* Establece la imagen de fondo */
+body {
+	background-image: url('fondo.jpg'); /* Imagen de fondo */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+	font-family: Arial, sans-serif;
+}
+
+/* Ajusta el contenido */
+.contenido {
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Ajusta la imagen */
+.imagen {
+    width: 50%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* Ajusta el video */
+video {
+    width: 50%;
+    margin: 20px 0;
+}
+
+/* Ajusta el audio */
+audio {
+    margin: 20px 0;
+}
+.video.mp4 {
+}
+.video.mpp4 {
+}
+.video2.mp4 {
+}
+
+
